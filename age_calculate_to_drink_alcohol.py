@@ -3,6 +3,7 @@ try:
     Birth_year = int(input('Enter the birth year: '))
 except:
     print('Please enter valid number')
+    quit()
 current_year = date.today().year
 Age = current_year - Birth_year
 if Age<18:
